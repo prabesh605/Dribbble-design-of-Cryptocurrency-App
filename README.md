@@ -1,6 +1,8 @@
 # crypto_mobile
 
-A new Flutter project.
+I try to Create UI for Cryptocurrency Application from Dribbble. I may contain some unmatchable Icons and fuctions.
+It is not responsive application only UI is designed.
+
 
 ## Getting Started
 
