@@ -9,6 +9,14 @@ class DetailPage extends StatelessWidget {
       backgroundColor: Colors.black,
       body: Stack(
         children: [
+          Container(
+            alignment: Alignment.topCenter,
+            child: InkWell(
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+          ),
           Padding(
             padding: EdgeInsets.only(top: 40.0),
             child: Container(
@@ -26,6 +34,11 @@ class DetailPage extends StatelessWidget {
                       height: 2.0,
                       width: 40.0,
                       decoration: BoxDecoration(color: Colors.grey),
+                      child: InkWell(
+                        onTap: () {
+                          Navigator.pop(context);
+                        },
+                      ),
                     ),
                   ),
                   Padding(

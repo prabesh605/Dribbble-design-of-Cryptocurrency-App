@@ -33,9 +33,20 @@ class home_screen extends StatelessWidget {
                     ),
                   );
                 },
-                child: const Text(
-                  "Create Portfolio ↗",
-                  style: TextStyle(color: Colors.blue, fontSize: 25.0),
+                child: Row(
+                  children: [
+                    Text(
+                      "Create Portfolio",
+                      style: TextStyle(
+                          color: Colors.blue,
+                          fontSize: 25.0,
+                          decoration: TextDecoration.underline),
+                    ),
+                    Icon(
+                      Icons.arrow_outward,
+                      color: Colors.blue,
+                    ),
+                  ],
                 ),
               ),
             ],
